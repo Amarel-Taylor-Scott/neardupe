@@ -1,0 +1,26 @@
+[
+  {
+    "expect": 0.6328125,
+    "inputs": {
+      "text_a": "machine learning models trained on duplicated web text tend to memorize passages and waste compute during the long training run",
+      "text_b": "machine learning models trained on duplicated web text tend to memorize passages and waste compute during the lengthy training run"
+    },
+    "parameters": {}
+  },
+  {
+    "expect": 0.0,
+    "inputs": {
+      "text_a": "machine learning models trained on duplicated web text tend to memorize passages and waste compute during the long training run",
+      "text_b": "a quick reminder to buy milk eggs bread and coffee on the way home tonight"
+    },
+    "parameters": {}
+  },
+  {
+    "expect": 1.0,
+    "inputs": {
+      "text_a": "to reset your password open the account settings page and click the reset link sent to your registered email address",
+      "text_b": "to reset your password open the account settings page and click the reset link sent to your registered email address"
+    },
+    "parameters": {}
+  }
+]

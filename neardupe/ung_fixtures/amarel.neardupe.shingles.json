@@ -1,0 +1,36 @@
+[
+  {
+    "expect": [
+      "cat sat on the warm",
+      "sat on the warm mat",
+      "the cat sat on the"
+    ],
+    "inputs": {
+      "text": "the cat sat on the warm mat"
+    },
+    "parameters": {}
+  },
+  {
+    "expect": [
+      "agilisti",
+      "alifragi",
+      "califrag",
+      "ercalifr",
+      "fragilis",
+      "gilistic",
+      "ifragili",
+      "lifragil",
+      "percalif",
+      "ragilist",
+      "rcalifra",
+      "supercal",
+      "upercali"
+    ],
+    "inputs": {
+      "text": "supercalifragilistic"
+    },
+    "parameters": {
+      "k": 8
+    }
+  }
+]
